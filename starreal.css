@@ -1,0 +1,630 @@
+@charset "utf-8";
+/* CSS Document */
+html, div, h1, h2, h3, h4, h5, h6, p,img {} 
+/*height for HTML and BODY set the maximum size of a window*/
+/*ol, ul, li,  embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, article, aside, details, figcaption, figure,  footer, 
+header, hgroup, menu, nav, section,  { display: block; } */
+p{
+	font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
+	}
+
+	body {
+
+}
+
+
+a:link {
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+ }
+a:hover { 
+    color: white;
+    text-decoration: none;  
+    border: none;
+    
+}
+a:visited   {   
+    color: white; 
+    border: none;
+    text-decoration: none; 
+}
+
+a:active    {   
+    color: yellow;
+    border: none;
+    text-decoration: none;
+}
+
+
+#container{
+	width: 1640px;
+	height: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+background-image: url("background.jpeg");
+background-repeat: no-repeat;
+ background-attachment: fixed; 
+background-size: 100% 100%;
+
+}
+#animatedstar{
+width: 72.6px;
+height:69.3px;
+top: 100px;
+left: 100px;
+position: absolute;
+display: block;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+}
+
+@keyframes twinkle {
+    from {
+        transform:rotate(0deg);
+
+    }
+    to {
+    	transform:rotate(360deg);
+    }
+}
+@keyframes twinklebackwards {
+    from {
+        transform:rotate(360deg);
+
+    }
+    to {
+    	transform:rotate(0deg);
+    }
+}
+
+/*#animatedstar:hover{
+	display: none;
+}*/
+
+#animatedstar2{
+width: 66px;
+height: 63px;
+top: 600px;
+left: 400px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+}
+
+/*#animatedstar:hover + #animatedstar2{
+	display: block;
+
+}*/
+
+#animatedstar3{
+width: 66px;
+height: 63px;
+top: 250px;
+left: 900px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+}
+
+/*#animatedstar:hover + #animatedstar3{
+	display: block;
+
+}*/
+
+#animatedstar4{
+width: 66px;
+height:63px;
+top: 790px;
+left: 1200px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar4{
+	display: block;
+
+}*/
+
+#animatedstar5{
+width: 33px;
+height: 31.5px;
+top: 500px;
+left: 1500px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar5{
+	display: block;
+
+}*/
+
+#animatedstar6{
+width: 46.2px;
+height: 44.1px;
+top: 100px;
+left: 1350px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar6{
+	display: block;
+
+}*/
+
+#animatedstar7{
+width: 99px;
+height: 94.5px;
+top: 800px;
+left: 100px;
+position: absolute;
+animation-name: twinklebackwards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar7{
+	display: block;
+
+}*/
+
+#animatedstar8{
+width: 145.2px;
+height: 138.6px;
+top: 470px;
+left: 1180px;
+position: absolute;
+animation-name: twinklebackwards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar7{
+	display: block;
+
+}*/
+
+#animatedstar9{
+width: 46.2px;
+height: 44.1px;
+top: 360px;
+left: 200px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+}
+
+/*#animatedstar:hover + #animatedstar7{
+	display: block;
+
+}*/
+
+#animatedstar10{
+width: 108px;
+height:101px;
+top: 80px;
+left: 500px;
+position: absolute;
+animation-name: twinklebackwards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+/*#animatedstar:hover + #animatedstar7{
+	display: block;
+
+}*/
+
+#animatedstar11{
+width: 39.6px;
+height: 37.8px;
+top: 760px;
+left: 800px;
+position: absolute;
+animation-name: twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused; 
+
+}
+
+
+
+#title1{
+	font-size: 28px;
+	font-style: "Lucida Sans";
+	color: white;
+	text-align: center;
+    opacity: 1;
+	width: 300px;
+	height: 100px;
+	top: 450px;
+	left: 670px;
+	position: absolute;
+    /*transition-property: opacity;
+    transition-duration: 1s; 
+    /*transition-delay: 1s;*/
+animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-play-state:running; 
+}
+
+@keyframes slide1 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+#title2{
+	font-size: 28px;
+	font-style: "Lucida Sans";
+	color: white;
+	text-align: center;
+    opacity: 1;
+	width: 300px;
+	height: 32px;
+	top: 500px;
+	left: 640px;
+	position: absolute;
+animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 0.6s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-play-state:running; 
+}
+
+
+
+#title3{
+
+font-size: 28px;
+	font-style: "Lucida Sans";
+	color: white;
+	text-align: center;
+    opacity: 1;
+	width: 300px;
+	height: 32px;
+	top: 550px;
+	left: 670px;
+	position: absolute;
+animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 1.2s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-play-state:running; 
+}
+
+#title4{
+	font-size: 28px;
+	font-style: "Lucida Sans";
+	text-align: center;
+    opacity: 1;
+	width: 300px;
+	height: 32px;
+	top: 500px;
+	left: 804px;
+	cursor:pointer;
+	position: absolute;
+animation-name: slide1;
+    animation-duration: 4s;
+    animation-delay: 0.6s;
+    animation-iteration-count: 1;
+    animation-direction: forwards;
+    animation-play-state:running; 
+
+}
+
+
+
+#title4:hover ~ #animatedstar{
+	animation-play-state: running;
+	
+
+}
+
+#title4:hover ~ #animatedstar2{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar3{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar4{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar5{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar6{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar7{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar8{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar9{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar10{
+	animation-play-state: running;
+	
+}
+
+#title4:hover ~ #animatedstar11{
+	animation-play-state: running;
+	
+}
+
+
+
+/*#animatedstar:hover + #animatedstar7{
+	display: block;
+
+}
+
+
+
+/*#masterholder{
+width: 108px;
+height:101px;
+top: 230px;
+left: 205px;
+position: absolute;
+}
+
+#astarholder{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: relative;
+}
+
+
+//*#astar1{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+
+    }
+    to {
+    	opacity: 1;
+    }
+}
+
+    #astar2{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink2;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink2 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+
+    #astar3{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink3;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink3 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+
+
+	#astar4{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink4;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink4 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+ #astar5{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink5;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink5 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+ #astar6{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink6;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink6 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+#astar7{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink7;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink7 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}
+
+#astar8{
+width: 108px;
+height:101px;
+top: 0px;
+left: 0px;
+position: absolute;
+animation-name: blink8;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-play-state:running; 
+}
+
+@keyframes blink8 {
+    from {
+        opacity: 1;
+
+    }
+    to {
+    	opacity: 0;
+    }
+}*/
+
+
